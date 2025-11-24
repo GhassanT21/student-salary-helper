@@ -1,16 +1,40 @@
-# smartpay_mini
+Student Salary Helper
 
-A new Flutter project.
+A simple Flutter application that helps students calculate their monthly salary, taxes, savings, and free money. The app uses one page only and does not require any database.
 
-## Getting Started
+Features:
 
-This project is a starting point for a Flutter application.
+Base monthly salary
 
-A few resources to get you started if this is your first Flutter project:
+Overtime hours
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Overtime rate
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Extra income
+
+Essentials (rent, food, transport…)
+
+Savings target % (per month)
+
+Optional target free-money goal
+
+Tax band selection (5%, 12%, 20%)
+
+Shows: gross income, tax amount, after-tax income, savings, free money, yearly totals, and a status message.
+
+How to Run (Online)
+flutter pub get
+flutter run -d chrome
+
+How to Run (Offline)
+
+Run these one time only:
+
+flutter create .
+flutter pub get
+flutter precache
+
+
+Then run offline using:
+
+flutter run -d chrome --web-renderer html

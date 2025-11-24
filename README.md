@@ -38,3 +38,5 @@ flutter precache
 Then run offline using:
 
 flutter run -d chrome --web-renderer html
+
+Presented by: Reine Rifai & Ghassan Termsani
